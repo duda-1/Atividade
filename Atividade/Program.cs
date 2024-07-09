@@ -210,20 +210,35 @@ while (opicaoselecionada < 1 || opicaoselecionada > 4)
 
     else if (opicaoselecionada == 2)
     {
-        Console.WriteLine("Alguma coisa");
-        if ()
+        if (numero1 % 2 == 0)
         {
-            Console.WriteLine("Ambos são pares");
+            Console.WriteLine($"{numero1} e  pares");
         }
         else
         {
-            Console.WriteLine("Os números não são pares !!");
+            Console.WriteLine($"{numero1} não e par");
         }
+        else if (numero2 % 2 == 0)
+        {
+            Console.WriteLine($"{numero2} e  pares");
+        }
+        else
+        {
+            Console.WriteLine($"{numero2} não e par");
+        }
+
     }
 
     else if (opicaoselecionada == 3)
     {
-        Console.WriteLine("Alguma coisa");
+        if(numero1 * numero2/2 > 7)
+        {
+            Console.WriteLine("os números são maior que 7")
+        }
+        else
+        {
+            Console.WriteLine("Os números são menor que 7")
+        }
     }
 
     else if(opicaoselecionada == 4)
