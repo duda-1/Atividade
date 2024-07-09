@@ -198,16 +198,34 @@ while (opicaoselecionada < 1 || opicaoselecionada > 4)
 
     if (opicaoselecionada == 1)
     {
-       
+        if (numero1 % numero2 == 0)
+        {
+            Console.WriteLine($"{numero1} e um multiplo de {numero2}");
+        }
+        else
+        {
+            Console.WriteLine("Esses números não são multiplos um do outro !!");
+        }
     }
+
     else if (opicaoselecionada == 2)
     {
-       
+        Console.WriteLine("Alguma coisa");
+        if ()
+        {
+            Console.WriteLine("Ambos são pares");
+        }
+        else
+        {
+            Console.WriteLine("Os números não são pares !!");
+        }
     }
+
     else if (opicaoselecionada == 3)
     {
-       
+        Console.WriteLine("Alguma coisa");
     }
+
     else if(opicaoselecionada == 4)
     {
 
